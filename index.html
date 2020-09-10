@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="utf-8">
+<link href="main.css" rel="styelesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Homepage</title>
+  
+    <style type="text/css">
+    .img{
+        background:#edf1f3;
+        padding:0 0 0;
+        border-radius:12px;
+        text-align:center;
+        text-justify: auto;
+    }
+ .img:hover
+       {
+           backface-visibility: inherit;
+       opacity:0.5;
+       color-interpolation-filters: auto;
+       }
+       .img.p{
+           float:left;
+       }
+               
+       body{
+           width:auto;
+           font-family: "Lato", sans-serif;
+          }
+       .index{
+           background-color :#a99d9b;
+           border-radius:32px;
+           width:100%;
+           font-family: 'Pacifico', cursive;
+           text-align: center;
+       }
+      
+       .icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+* {box-sizing: border-box}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: auto;
+  border-color: 1px rgb(115, 113, 194);
+}
+tabcontent.p{
+text-align: left;
+float:left;
+}
+</style>
+<div class="img" id='img'>
+    <img src="logo.png">
+</div>
+    </head>
+    
+    <body>
+<div class="index" >
+
+</div>
+<div class="icon-bar">
+    <a class="active" href="#"><i class="fa fa-home"></i></a>
+    <a href="#"><i class="fa fa-search"></i></a>
+    <a href="#"><i class="fa fa-envelope"></i></a>
+    <a href="#"><i class="fa fa-globe"></i></a>
+    <a href="#"><i class="fa fa-trash"></i></a>
+  </div>
+<h2 style="font-family: 'Courier New', Courier, monospace;">EVENTS</h2>
+<p style="font-family: 'Pacifico', cursive;">Hello,Welcome to wedesign.in,check availalabity of new event around these areas</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Hyderabad')" id="defaultOpen">Hyderabad</button>
+  <button class="tablinks" onclick="openCity(event, 'warangal')">warangal</button>
+  <button class="tablinks" onclick="openCity(event, 'Bangalure')">Bangalure</button>
+  <button class="tablinks" onclick="openCity(event, 'Vijayawada')">Vijayawada</button>
+</div>
+<div id="Hyderabad" class="tabcontent">
+  <h3>Hyderabad</h3>
+<img src="https://in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-biggest-glow-party-2019-hyderabad-2019-9-10-t-12-45-4.jpg"
+style="height:240px;device-width=auto;text-align:center;border-radius:32px;"></img>
+<p style="text-align: left;float:left;">
+      
+     <h5>Date:12/12/2020</h5>
+      <h5>Timings:8:am-4:pm</h5>
+      <h5>cheif gest: Mahesh babu -Telugu movie actor</sub></h5>
+      please make some social distance and take measure while coming to event
+</p>
+</div>
+
+<div id="warangal" class="tabcontent">
+    <h3>warangal</h3>
+    <img src="https://res.cloudinary.com/https-highape-com/image/upload/q_auto:eco,f_auto,h_380/v1568623253/suvps0lzwthpytoc01hm.jpg"
+    style="height:240px;device-width=auto;text-align:center;border-radius:32px;"></img>
+    <p style="text-align: left;float:left;">
+          
+         <h5>Date:12/12/2020</h5>
+          <h5>Timings:8:am-4:pm</h5>
+          <h5>cheif gest: Mahesh babu -Telugu movie actor</sub></h5>
+          please make some social distance and take measure while coming to event
+    </p>
+</div>
+
+<div id="Bangalure" class="tabcontent">
+    <h3>Bengalure</h3>
+    <img src="https://storage.googleapis.com/ehimages/2018/12/19/img_44f3fd712f0cb021ae4dd96cb6c099ee_1545225353618_processed_original.jpg"
+    style="height:240px;device-width=auto;text-align:center;border-radius:32px;"></img>
+    <p style="text-align: left;float:left;">
+          
+         <h5>Date:12/12/2020</h5>
+          <h5>Timings:8:am-4:pm</h5>
+          <h5>cheif gest: Mahesh babu -Telugu movie actor</sub></h5>
+          please make some social distance and take measure while coming to event
+    </p>
+</div>
+<div id="Vijayawada" class="tabcontent">
+    <h3>Vijayawada</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbPwFVI67Qz28dYDxLLYRLiWnmuw-kOQEIJA&usqp=CAU"
+    style="height:240px;device-width=auto;text-align:center;border-radius:32px;"></img>
+    <p style="text-align: left;float:left;">
+          
+         <h5>Date:12/12/2020</h5>
+          <h5>Timings:8:am-4:pm</h5>
+          <h5>cheif gest: Mahesh babu -Telugu movie actor</sub></h5>
+          please make some social distance and take measure while coming to event
+    </p>
+  </div>
+    </body>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+   <div class="bot"style="background-color:black;color:white;font-family: 'Pacifico', cursive;text-align:center;font-family:">
+        <h2>about us</h2>
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }  
+            document.getElementById("defaultOpen").click();
+        </script>
+        
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</html>
